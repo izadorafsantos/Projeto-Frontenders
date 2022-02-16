@@ -5,7 +5,39 @@
 }
 
 body{
-    background-color:#15BF70;
+    background-color:#161616;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#title {
+    font-family: BEBAS;
+    font-size: 50px;
+    font-weight: bold;
+    color:white;
+}
+
+#title:hover{
+    font-family: BEBAS;
+    font-size: 60px;
+    color: #F249B7;
+}
+
+.menu-sm {
+    margin: 10px;
+    font-size: 25px;
+    color: black;
+    box-shadow: 3px 3px #F249B7, 0.5em 0 0.4em;
+    font-family: BEBAS;
+}
+
+.menu-sm:hover {
+    position:relative;
+    top:1px;
 }
 
 .images {
@@ -20,10 +52,10 @@ body{
     font-size: 55px;
     text-align: center;
     margin-top: 100px;
-    color: #F2E205;
+    color: white;
 }
 
-.container {
+.container-sm {
     display:flex;
     align-items: center;
     justify-content: space-around;
@@ -33,7 +65,7 @@ body{
 
 .icons {
     width: 80px;
-    height: 80px;
+    height: 70px;
     display: flex;
     flex-direction: column;
 }
@@ -68,11 +100,11 @@ body{
 }
 
 #footer-sm {
-    background-color: #1AA3D9;
     font-family: BEBAS;
     font-weight: bold;
     text-align: center;
     margin-top: 90px;
+    color: white;
     
 }
  .icons-iza {
@@ -102,4 +134,13 @@ body{
 
 .menu-rodape:hover {
     color: #F2E205;
+}
+
+
+
+@media(max-width:800px){
+    .container-sm{
+      display: flex;
+      flex-direction: column;
+    }
 }
