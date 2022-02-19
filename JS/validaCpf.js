@@ -1,4 +1,4 @@
-
+// Validando o CPF 
 let cpfTeste = $('#cpf-mask').blur(function () {
 
   let strCPF = $("#cpf-mask").val();
